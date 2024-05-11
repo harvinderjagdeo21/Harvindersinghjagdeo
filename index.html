@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harvinder Singh Jagdeo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/ec64c4f156.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fa-solid fa-h"></i>
+                    <div class="logo-text">Harvinder Singh Jagdeo</div>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Electrical Engineer</p>
+                <h1>Hi, I'm <span>Harvinder Singh Jagdeo</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------about--------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="assets/profile.jpg" alt="Harvinder">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Welcome to my corner of the digital world! I'm Harvinder Singh Jagdeo, a passionate & smart hardworker dedicated to achieve my goals. With a blend of creativity, expertise, and a dash of curiosity, I embark on each project with enthusiasm and a commitment to excellence. Whether it's delving into the intricacies of Electrical 
+                        engg. or exploring new avenues of Music Production & Codeing, I thrive on the journey of growth and discovery. Join me as I navigate the endless possibilities and carve out my own unique path in this ever-evolving landscape.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML / CSS / JAVASCRIPT & REACT</li>
+                            <li><span>App Development</span><br>Cross-Platform (FLUTTER)</li>
+                            <li><span>WEB APPLICATION MANAGEMEN</span></li>
+                            <li><span>Music Production</span><br>Production / Composing / Mix-Mastering </li>
+                            <li><span>SOCIAL MEDIA MANAGEMENT</span><br>INSTAGRAM / FACEBOOK / YOUTUBE etc.. </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>FRESHER</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>[2020-2021]</span><br>Matric (10th) at BCM Senior Secondary School, 32 A, Ludhiana (CBSE)</li>
+                            <li><span>[2023-2024]</span><br>Humanities (10+2) at Shaheed Bhagat Singh Public Sr. Sec. School, Fatehgarh Sahib (PSEB) </li>
+                            <li><span>[PURSUING]</span><br>Electrical Engineering Diploma at Guru Nanak Dev Polytechnic College, Ludhiana</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------services--------------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Welcome to our web development services! We specialize in crafting captivating and functional websites tailored to meet your unique needs. With expertise in HTML, CSS, JavaScript, and a range of cutting-edge frameworks and technologies, we transform your vision into an immersive online experience. Whether you're a startup looking to establish your online presence or a seasoned enterprise seeking a digital revamp, we're dedicated to delivering top-notch solutions that drive engagement and growth. From responsive design to seamless navigation, we ensure your website not only looks stunning but also performs flawlessly across all devices. Let us be your partner in building the digital gateway to your success.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h2>Electrical Solutions</h2>
+                    <p>Welcome to our electrical solutions services! We offer comprehensive expertise in all aspects of electrical systems, catering to both residential and commercial needs. From initial consultation to final installation, our skilled team is committed to delivering reliable and innovative solutions tailored to your requirements. Whether it's designing efficient lighting schemes, upgrading electrical panels for enhanced safety, or implementing smart home automation, we strive to exceed expectations with meticulous attention to detail and adherence to industry standards. With a focus on efficiency, sustainability, and cost-effectiveness, we empower our clients to achieve optimal functionality and performance in their electrical infrastructure. Let us illuminate your space and power your future with our expert electrical solutions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-headphones-simple"></i>
+                    <h2>Music Production</h2>
+                    <p>Welcome to our music production services, where creativity meets technical expertise to bring your musical vision to life. Our dedicated team of producers, engineers, and musicians are committed to delivering professional-grade recordings and productions tailored to your unique style and goals. Whether you're an aspiring artist looking to record your first demo or a seasoned musician seeking to polish your sound, we offer a range of services including recording, mixing, mastering, and post-production. With state-of-the-art equipment and a passion for sonic excellence, we ensure every detail of your music is captured with clarity and emotion. From pop to rock, hip-hop to classical, we embrace diversity and strive to create compelling sonic landscapes that resonate with audiences. Let us be your partner in realizing the full potential of your musical endeavors.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ------------------portfolio---------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/work1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Web Developement</h3>
+                        <p>
+                            Crafting captivating online experiences through innovative coding and design.
+                        </p>
+                        <a href="https://github.com/harvinderjagdeo21"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/work4.jpg" alt="">
+                    <div class="layer">
+                        <h3>Electrical & Electronics</h3>
+                        <p>
+                            circuit design to system integration, I bring expertise and precision to every project, ensuring reliability and efficiency.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="assets/work3.jpg" alt="">
+                    <div class="layer">
+                        <h3>Music Production</h3>
+                        <p>
+                            I bring your musical vision to fruition with expertise and passion. Let's collaborate overview my work on Youtube.
+                        </p>
+                        <a href="https://youtube.com/@harvindersinghjagdeo?si=52snLGely5_mtX40"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ------------------------contact------------------- -->
+    
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>harvindersinghjagdeo2004@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 8872996077</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/harvinderjagdeo21"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100080401756368&mibextid=JRoKGi"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.snapchat.com/add/jagdeo.21?share_id=smKFxMR8RqeAdrTlUoLNXg&locale=en_US"><i class="fa-brands fa-snapchat"></i></a>
+                        <a href="https://t.me/contact_harvindersinghjagdeo"><i class="fa-brands fa-telegram"></i></a>
+                        <a href="https://twitter.com/Harvinderjagdeo"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="https://youtube.com/@harvindersinghjagdeo?si=52snLGely5_mtX40"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/harvinder-singh-754546308/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="assets/harvinder singh jagdeo.pdf"  download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/mgegqawq" method="POST" reset >
+                        <input type="text"  name="Name" placeholder="Your Name" required>
+                        <input type="email"  name="email" placeholder="Your Email" required>
+                        <textarea name="Massage"  rows="6" placeholder="Your Massage"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © to Harvinder Singh Jagdeo</p>
+        </div>
+    </div>
+    
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents"); 
+
+        function opentab(tabname){  
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0"
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px"
+        }
+
+    </script>
+    
+</body>
+</html>
