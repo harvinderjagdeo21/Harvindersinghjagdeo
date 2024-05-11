@@ -463,3 +463,9 @@ nav .fas{
         font-size: 14px;
     }
 }
+
+@media only screen and (max-width: 430px){
+    .logo .logo-text{
+        font-size: 20px;
+    }
+}
